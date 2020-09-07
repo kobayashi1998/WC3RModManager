@@ -1,9 +1,7 @@
 # 魔兽争霸3重制版Mod管理器 | WC3R Mod Manager
-该项目基于[WC3 Mod Manager](https://gitlab.com/EzraZebra/WC3ModManager),旨在为魔兽争霸3重制版于提供一个简单且可靠的Mod安装卸载工具。  
+该项目旨在为魔兽争霸3重制版于提供一个简单且可靠的Mod安装卸载工具，最新版本为v1.1.1。  
 
-最新版本为v1.1.1，下载地址[百度网盘|提取码：gbbx](https://pan.baidu.com/s/1ifYSsqwCngW3wmbKtql_9g)。  
-
-BUG反馈、建议，请到[QQ群](https://jq.qq.com/?_wv=1027&k=3z5zGFVR)。
+## 本体及Mod的下载地址：[百度网盘|提取码：gbbx](https://pan.baidu.com/s/1ifYSsqwCngW3wmbKtql_9g)
 
 # 核心功能
 * 安装/卸载Mod - 通过在游戏根目录下创建/删除Mod文件夹的符号链接，实现快速安装/卸载Mod。
@@ -17,6 +15,7 @@ A:	1.在网盘中选择Mod，解压到软件目录的Mods文件夹下
 A:	1.检查“允许本地文件”选项，确保其处于开启状态  
 	2.检查游戏根目录路径是否设置正确，注意区分1.27和重制版  
 	3.检查软件目录下Mods文件夹  
+## 更多BUG反馈、建议，请到[QQ群](https://jq.qq.com/?_wv=1027&k=3z5zGFVR)。
 
 # 更新日志
 v1.1.1 2020年9月7日  
@@ -26,3 +25,6 @@ v1.1.1 2020年9月7日
 
 # 开发环境
 项目使用 [Qt Creator 4.12.2](https://www.qt.io/download-qt-installer)开发，使用MinGW 7.3.0 64-bit进行编译构建。
+
+# 引用项目
+[WC3 Mod Manager](https://gitlab.com/EzraZebra/WC3ModManager)
