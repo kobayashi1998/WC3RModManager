@@ -1,5 +1,7 @@
 # WC3R Mod Manager
-WC3R Mod Manager是一个针对魔兽争霸3重制版的Mod管理工具，目的在于让Mod的安装变得更简单。软件最新版本为v1.1.1。  
+WC3R Mod Manager是一个针对魔兽争霸3重制版的Mod管理工具，目的在于让Mod的安装变得更简单。  
+
+软件最新版本为v1.1.1。  
 
 ## 管理器本体以及Mod的下载地址：[百度网盘|提取码：kbys](https://pan.baidu.com/s/1sktVTjXTgHFoukNsw7a4nQ)
 
