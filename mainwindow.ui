@@ -387,15 +387,15 @@
   </action>
   <action name="actionOpen">
    <property name="text">
-    <string>Open Folder</string>
+    <string>打开文件夹</string>
    </property>
    <property name="toolTip">
-    <string>Open Folder</string>
+    <string>打开文件夹</string>
    </property>
   </action>
   <action name="actionRename">
    <property name="text">
-    <string>Rename</string>
+    <string>重命名</string>
    </property>
    <property name="font">
     <font>
@@ -409,7 +409,7 @@
   </action>
   <action name="actionDelete">
    <property name="text">
-    <string>Delete</string>
+    <string>删除</string>
    </property>
    <property name="shortcut">
     <string>Del</string>
@@ -437,7 +437,7 @@
   </action>
   <action name="actionMount">
    <property name="text">
-    <string>Mount</string>
+    <string>安装</string>
    </property>
   </action>
   <action name="actionOpenGameFolder">

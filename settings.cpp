@@ -1,4 +1,4 @@
-#include "settings.h"
+﻿#include "settings.h"
 #include "ui_settings.h"
 #include "utils.h"
 
@@ -10,6 +10,11 @@ Settings::Settings(QWidget *parent, Config *newConfig) :
     setWindowFlag(Qt::MSWindowsFixedSizeDialogHint);
 
     config = newConfig;
+
+    QDialogButtonBox *buttonBox = ui->buttonBox;
+    buttonBox->setStandardButtons(QDialogButtonBox::Cancel|QDialogButtonBox::Apply);
+    buttonBox->button(QDialogButtonBox::Cancel)->setText("取消");
+    buttonBox->button(QDialogButtonBox::Apply)->setText("应用");
 
     connect(ui->dirBtn, SIGNAL(clicked()), this, SLOT(browseGame()));
     connect(ui->buttonBox, SIGNAL(clicked(QAbstractButton *)), this, SLOT(save(QAbstractButton *)));
